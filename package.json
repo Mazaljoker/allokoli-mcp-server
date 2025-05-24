@@ -1,0 +1,35 @@
+﻿{
+    "version":  "1.0.0",
+    "author":  "AlloKoli Team",
+    "license":  "MIT",
+    "dependencies":  {
+                         "@supabase/supabase-js":  "^2.39.3",
+                         "@modelcontextprotocol/sdk":  "^0.4.0",
+                         "node-fetch":  "^3.3.2"
+                     },
+    "name":  "allokoli-mcp-server",
+    "type":  "module",
+    "description":  "Serveur MCP AlloKoli pour la creation et gestion d\u0027assistants vocaux avec Vapi et Twilio",
+    "engines":  {
+                    "node":  "\u003e=18.0.0"
+                },
+    "keywords":  [
+                     "mcp",
+                     "allokoli",
+                     "voice-assistant",
+                     "vapi",
+                     "twilio",
+                     "supabase"
+                 ],
+    "scripts":  {
+                    "test":  "node test.js",
+                    "dev":  "node --watch index.js",
+                    "start":  "node index.js"
+                },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/Mazaljoker/Koli55.git"
+                   },
+    "homepage":  "https://github.com/Mazaljoker/Koli55",
+    "main":  "index.js"
+}

@@ -1,0 +1,39 @@
+﻿{
+    "capabilities":  {
+                         "tools":  true,
+                         "prompts":  false,
+                         "resources":  false
+                     },
+    "version":  "1.0.0",
+    "displayName":  "AlloKoli Voice Assistant Manager",
+    "entrypoint":  "index.js",
+    "keywords":  [
+                     "voice-assistant",
+                     "vapi",
+                     "twilio",
+                     "supabase",
+                     "mcp",
+                     "ai"
+                 ],
+    "name":  "allokoli-mcp-server",
+    "environment":  {
+                        "required":  [
+                                         "SUPABASE_URL",
+                                         "SUPABASE_SERVICE_ROLE_KEY",
+                                         "VAPI_API_KEY",
+                                         "TWILIO_ACCOUNT_SID",
+                                         "TWILIO_AUTH_TOKEN"
+                                     ]
+                    },
+    "description":  "Serveur MCP pour creer et gerer des assistants vocaux avec Vapi et Twilio",
+    "runtime":  "node",
+    "license":  "MIT",
+    "author":  "AlloKoli Team",
+    "categories":  [
+                       "productivity",
+                       "communication",
+                       "ai-tools"
+                   ],
+    "homepage":  "https://github.com/Mazaljoker/Koli55",
+    "repository":  "https://github.com/Mazaljoker/Koli55"
+}
