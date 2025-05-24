@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "allokoli": {
+      "command": "npx",
+      "args": ["allokoli-mcp-server"],
+      "env": {
+        "SUPABASE_URL": "https://aiurboizarbbcpynmmgv.supabase.co",
+        "SUPABASE_SERVICE_ROLE_KEY": "your_service_role_key",
+        "VAPI_API_KEY": "your_vapi_api_key",
+        "TWILIO_ACCOUNT_SID": "your_twilio_account_sid",
+        "TWILIO_AUTH_TOKEN": "your_twilio_auth_token"
+      },
+      "disabled": false,
+      "alwaysAllow": [],
+      "description": "Serveur MCP AlloKoli pour la création et gestion d'assistants vocaux avec Vapi et Twilio"
+    }
+  },
+  "globalShortcut": "CommandOrControl+Shift+M",
+  "mcpSettings": {
+    "timeout": 30000,
+    "retries": 3,
+    "logLevel": "info"
+  }
+} 
