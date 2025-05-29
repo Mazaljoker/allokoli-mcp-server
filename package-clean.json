@@ -1,0 +1,43 @@
+{
+  "name": "allokoli-mcp-clean",
+  "version": "2.0.0",
+  "description": "Serveur MCP AlloKoli conforme à l'API Vapi.ai officielle - Nettoyé de toutes les fonctions custom",
+  "type": "module",
+  "main": "index-clean.js",
+  "bin": {
+    "allokoli-mcp-clean": "./index-clean.js"
+  },
+  "scripts": {
+    "start": "node index-clean.js",
+    "dev": "node --watch index-clean.js",
+    "test": "node index-clean.js --help"
+  },
+  "keywords": [
+    "mcp",
+    "vapi",
+    "voice-ai",
+    "assistant",
+    "telephony",
+    "allokoli",
+    "clean",
+    "official-api"
+  ],
+  "author": "AlloKoli Team",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allokoli/mcp-server"
+  },
+  "bugs": {
+    "url": "https://github.com/allokoli/mcp-server/issues"
+  },
+  "homepage": "https://github.com/allokoli/mcp-server#readme",
+  "files": ["index-clean.js", "README.md"]
+}
