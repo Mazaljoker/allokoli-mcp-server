@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/mazaljoker-allokoli-mcp-server-badge.png)](https://mseep.ai/app/mazaljoker-allokoli-mcp-server)
+
 ﻿# 🏆 AlloKoli MCP Server - PERFECTION ABSOLUE
 
 ## 🎯 PERFECTION ATTEINTE : 100% DE COUVERTURE API VAPI
